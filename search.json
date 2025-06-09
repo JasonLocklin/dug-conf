@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DUG::conf",
+    "section": "",
+    "text": "This is the webpage for DUG::conf 2025.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -15,15 +25,5 @@
     "title": "ggplot2",
     "section": "",
     "text": "Here are some visuals using ggplot2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DUG::conf",
-    "section": "",
-    "text": "This is the webpage for DUG::conf 2025.",
-    "crumbs": [
-      "Home"
-    ]
   }
 ]

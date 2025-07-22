@@ -1,0 +1,469 @@
+[
+  {
+    "objectID": "r-books.html",
+    "href": "r-books.html",
+    "title": "R Books",
+    "section": "",
+    "text": "Selected Reading for R\nR for Data Science\nAdvanced R\nExploratory Data Analysis with R\nHappy Git with R\nggplot2",
+    "crumbs": [
+      "R Resources",
+      "Books"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "In the spring of 2007 the Hierarchical Linear Model Learning and Research Community (HLM-LRC) was formed to promote and support the use of Hierarchical Linear Modelling. A variety of opportunities arose for members to practice and implement their HLM skills including presentations at the Canadian Society for the Study of Education and an Ontario Ministry of Education research inquiry into early years through the Barrie Region MISA PNC (Managing Information for Student Achievement Professional Network Centre). Over the years, the topics explored through the HLM-LRC expanded to include all manner of issues related to data and research sciences.\nIn the spring of 2013 the HLM-LRC was rebranded as the Data User Group (DUG) to reflect the broader discussions and capacity building opportunities that emerged through the network. Resources that were developed as part of the HLM-LRC have been moved to this public website to make the organizational learning visible and promote broader participation.\nParticipation in DUG is open to anyone with an interest in data and/or research sciences and consists of email notifications of relevant events and resources. The meetings and workshops that are organized by DUG are guided by member inquiries, interests and feedback. If you are interested in joining the DUG email distribution list, or would like to recommend/request a workshop topic, please contact Conley_Chris@Durham.edu.on.ca",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#why-use-github",
+    "href": "github-presentation.html#why-use-github",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Why use GitHub?",
+    "text": "Why use GitHub?",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#why-use-github-1",
+    "href": "github-presentation.html#why-use-github-1",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Why use GitHub?",
+    "text": "Why use GitHub?\nCollaborate with colleagues",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#why-use-github-2",
+    "href": "github-presentation.html#why-use-github-2",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Why use GitHub?",
+    "text": "Why use GitHub?\nCreate your own packages",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#why-use-github-3",
+    "href": "github-presentation.html#why-use-github-3",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Why use GitHub?",
+    "text": "Why use GitHub?\nNot these packages…",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#why-use-github-4",
+    "href": "github-presentation.html#why-use-github-4",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Why use GitHub?",
+    "text": "Why use GitHub?\nThese packages:",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#example",
+    "href": "github-presentation.html#example",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Example",
+    "text": "Example\nhttps://github.com/grousell/tcdsb\n\n\n\nmtcars |&gt; \n  head(3) |&gt; \n  rownames_to_column(\"car\") |&gt; \n  ggplot(aes(x = car, y = disp)) +\n  geom_col() + \n  labs(title = \"Title of Plot\",\n       subtitle = \"Subtitle\", \n       x = NULL, \n       y = \"Displacement\") +\n  theme()\n\n\n\n\n\n\n\n\n\n\nmtcars |&gt; \n  head(3) |&gt; \n  rownames_to_column(\"car\") |&gt; \n  ggplot(aes(x = car, y = disp)) +\n  geom_col(fill = tcdsb_board_color) + \n  labs(title = \"Title of Plot\",\n       subtitle = \"Subtitle\", \n       x = NULL, \n       y = \"Displacement\") + \n  tcdsb_ggplot_theme()",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#set-up",
+    "href": "github-presentation.html#set-up",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Set up",
+    "text": "Set up\nQuick and dirty steps - to know more go to happygitwithr.com\n\nRegister a GitHub account github.com\n\nInstall Git for Windows gitforwindows.org\n\nIntroduce yourself to Git\n\n\n## install if needed (do this exactly once):\n## install.packages(\"usethis\")\n\nlibrary(usethis)\nuse_git_config(user.name = \"Jane Doe\", user.email = \"jane@example.org\")",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#set-up-1",
+    "href": "github-presentation.html#set-up-1",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Set up",
+    "text": "Set up\n\nCreate new project\nRun usethis::user_git() This initializes git, you will have to re-start R and the Git tab will appear",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#set-up-2",
+    "href": "github-presentation.html#set-up-2",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Set up",
+    "text": "Set up\n\nRun usethis::create_github_token()\nRe-start RStudio\nRun usethis::use_github()\n\nThe repo should be part of your Github",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#forking-other-repos",
+    "href": "github-presentation.html#forking-other-repos",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Forking other Repos",
+    "text": "Forking other Repos",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#forking-other-repos-1",
+    "href": "github-presentation.html#forking-other-repos-1",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Forking other Repos",
+    "text": "Forking other Repos",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#forking-other-repos-2",
+    "href": "github-presentation.html#forking-other-repos-2",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Forking other Repos",
+    "text": "Forking other Repos\n\n\n\n\nTest_Quarto repo now appears in my Github\n\n\nQuarto_test repo now appears in my Github",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#forking-other-repos-3",
+    "href": "github-presentation.html#forking-other-repos-3",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Forking other Repos",
+    "text": "Forking other Repos\n\n\nTo work on repo in RStudio, create a new Porject -&gt; Version Control",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#forking-other-repos-4",
+    "href": "github-presentation.html#forking-other-repos-4",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Forking other Repos",
+    "text": "Forking other Repos",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#forking-other-repos-5",
+    "href": "github-presentation.html#forking-other-repos-5",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Forking other Repos",
+    "text": "Forking other Repos\n\n\nNow you can make changes, push back to GitHub and merge forks",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#ontario-board-tools-obt",
+    "href": "github-presentation.html#ontario-board-tools-obt",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Ontario Board Tools (obt)",
+    "text": "Ontario Board Tools (obt)\nhttps://github.com/grousell/obt\n\nele_rc |&gt; \n  head()\n\n# A tibble: 6 × 16\n      id school    grade responsibility independent_work initiative organization\n   &lt;int&gt; &lt;chr&gt;     &lt;chr&gt; &lt;chr&gt;          &lt;chr&gt;            &lt;chr&gt;      &lt;chr&gt;       \n1 470846 Degrassi… 2     S              G                S          S           \n2 234086 Degrassi… 5     E              E                E          E           \n3 526182 Degrassi… 5     G              G                G          G           \n4 475311 Degrassi… 2     G              G                G          S           \n5 455525 Degrassi… 8     E              E                G          E           \n6 462941 Degrassi… 4     G              G                G          G           \n# ℹ 9 more variables: collaboration &lt;chr&gt;, self_regulation &lt;chr&gt;,\n#   reading &lt;chr&gt;, writing &lt;chr&gt;, mathematics &lt;chr&gt;,\n#   science_and_technology &lt;chr&gt;, social_studies &lt;chr&gt;, history &lt;chr&gt;,\n#   geography &lt;chr&gt;",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#ontario-board-tools-obt-1",
+    "href": "github-presentation.html#ontario-board-tools-obt-1",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Ontario Board Tools (obt)",
+    "text": "Ontario Board Tools (obt)\n\n\n\nele_rc |&gt; \n  count(reading)\n\n# A tibble: 64 × 2\n   reading     n\n   &lt;chr&gt;   &lt;int&gt;\n 1 50          7\n 2 51          1\n 3 52          2\n 4 53          1\n 5 54          3\n 6 55          7\n 7 56          1\n 8 57          1\n 9 58          9\n10 60         26\n# ℹ 54 more rows\n\n\n\n\nele_rc |&gt;\n  mutate(reading = obt_recode_rc_to_levels(reading)) |&gt; \n  count(reading)\n\n# A tibble: 7 × 2\n  reading     n\n  &lt;fct&gt;   &lt;int&gt;\n1 ALT        14\n2 NE1       128\n3 Level 1   175\n4 Level 2   604\n5 Level 3  1036\n6 Level 4   540\n7 &lt;NA&gt;        3",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "github-presentation.html#ontario-board-tools-obt-2",
+    "href": "github-presentation.html#ontario-board-tools-obt-2",
+    "title": "Fork Me! Why You Should Learn GitHub",
+    "section": "Ontario Board Tools (obt)",
+    "text": "Ontario Board Tools (obt)\n\n\n\nsec_rc |&gt; \n  select(id, course_number)\n\n# A tibble: 2,000 × 2\n       id course_number\n    &lt;int&gt; &lt;chr&gt;        \n 1 861423 ENG3C        \n 2 959022 HPW3C        \n 3 924795 CLU3M        \n 4 773851 AMI4M        \n 5 611411 MEL3E        \n 6 621233 PLF4M        \n 7 811400 MPM2D        \n 8 964303 HSP3U        \n 9 908982 HSP3U        \n10 963335 CHC2D        \n# ℹ 1,990 more rows\n\n\n\n\nsec_rc |&gt; \n  select(id, course_number) |&gt; \n  mutate(course_level = obt_sec_level_study(course_number))\n\n# A tibble: 2,000 × 3\n       id course_number course_level      \n    &lt;int&gt; &lt;chr&gt;         &lt;chr&gt;             \n 1 861423 ENG3C         College           \n 2 959022 HPW3C         College           \n 3 924795 CLU3M         University/College\n 4 773851 AMI4M         University/College\n 5 611411 MEL3E         Workplace         \n 6 621233 PLF4M         University/College\n 7 811400 MPM2D         Academic          \n 8 964303 HSP3U         University        \n 9 908982 HSP3U         University        \n10 963335 CHC2D         Academic          \n# ℹ 1,990 more rows",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Fork Me! Why You Should Learn GitHub"
+    ]
+  },
+  {
+    "objectID": "r-blogs.html",
+    "href": "r-blogs.html",
+    "title": "R Blogs",
+    "section": "",
+    "text": "Selected Blogs for R\nR for Rest of Us\nRiffomonas Project\nAlbert Rapp",
+    "crumbs": [
+      "R Resources",
+      "Blogs"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Welcome to DUG! This is a beta test page for using GitHub pages.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "posts/2025-07-21_test/index.html",
+    "href": "posts/2025-07-21_test/index.html",
+    "title": "TEST Blog Post",
+    "section": "",
+    "text": "Here is my text.\n\nlibrary(ggplot2)\nmtcars |&gt; \n  ggplot(aes(x = mpg, y = disp)) + \n  geom_point()"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Today I Learned (TIL)",
+    "section": "",
+    "text": "TEST Blog Post\n\n\n\nQuarto\n\n\nR\n\n\n\nTrying out a ggplot\n\n\n\nGreg Rousell\n\n\nJul 21, 2025\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Today I Learned (TIL)"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#overview",
+    "href": "maps-with-sf.html#overview",
+    "title": "maps with the sf package",
+    "section": "Overview",
+    "text": "Overview\n\nSpatial data in R\nSimple features, the sf R package\nGeometrical operations\nTidy: sf, dplyr & ggplot2",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#what-makes-spatial-data-challenging",
+    "href": "maps-with-sf.html#what-makes-spatial-data-challenging",
+    "title": "maps with the sf package",
+    "section": "What makes spatial data challenging?",
+    "text": "What makes spatial data challenging?\n\n\n\nThe Earth is a sphere/spheroid/potato*\ncoordinates consist of two or three numbers that lose most of their meaning when considered individually\nthe most common form is Longitude, Latitude (LL) pairs\nfrom LL data, stats::dist will not give you distances\nmaps and screens are flat, and hence can only show projected data\nprojected distances are distorted, and possibly areas, shapes, directions and shortest paths too",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#what-makes-spatial-data-challenging-1",
+    "href": "maps-with-sf.html#what-makes-spatial-data-challenging-1",
+    "title": "maps with the sf package",
+    "section": "What makes spatial data challenging?",
+    "text": "What makes spatial data challenging?\n\n\n\nthe meaning of a LL coordinate depends on the geographic datum (e.g., WGS84, ETRS89, NAD27 etc)\na datum is unlikely important when mapping continents, but it is when drones try to deliver pizzas",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#simple-features",
+    "href": "maps-with-sf.html#simple-features",
+    "title": "maps with the sf package",
+    "section": "Simple features",
+    "text": "Simple features\n\nfeature: abstraction of real world phenomena (type or instance); has a geometry and other attributes (properties)\nsimple feature: feature with all geometric attributes described piecewise by straight line or planar interpolation between sets of points (no curves)\n\n\n\nrepresent geometry by points, lines or polygons, or collections thereof",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#simple-features-1",
+    "href": "maps-with-sf.html#simple-features-1",
+    "title": "maps with the sf package",
+    "section": "Simple features",
+    "text": "Simple features\n\na formal standard (ISO, OGC) since 2004\nsupported by OSGeo libraries GEOS and GDAL\nadopted by GeoJSON, GeoSPARQL\nhas well-known text (WKT) and binary (WKB) encodings\nWKB used by spatial databases (PostGIS, MariaDB, SQLite, …)\nstandard specifies a number of topological metrics, predicates and operations",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#operations-on-geometries",
+    "href": "maps-with-sf.html#operations-on-geometries",
+    "title": "maps with the sf package",
+    "section": "Operations on geometries:",
+    "text": "Operations on geometries:\nSingle:\n\nlogical predicates: is_valid, is_simple, is_empty\nquantities: length, area\ndimension: 0 = point(s), 1 = linear, 2 = surface\nderived geometries: buffer, centroid, boundary, convex_hull, simplify, linemerge, polygonize, node, point_on_surface, triangulate",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#operations-on-geometries-1",
+    "href": "maps-with-sf.html#operations-on-geometries-1",
+    "title": "maps with the sf package",
+    "section": "Operations on geometries:",
+    "text": "Operations on geometries:\nPairs/sets:\n\nquantities: distance\npredicates: intersects, within, contains, covers, covered_by, crosses, touches, overlaps, equals, disjoint, all other DE-9IM\nnew geometries: intersection, difference, union, sym_difference",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#intersection-special-cases",
+    "href": "maps-with-sf.html#intersection-special-cases",
+    "title": "maps with the sf package",
+    "section": "Intersection special cases",
+    "text": "Intersection special cases\n\n\n(typed) EMPTY: think of as missing (NA) geometry\nGEOMETRYCOLLECTION: single feature geometry with mix of anything",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#package-sf",
+    "href": "maps-with-sf.html#package-sf",
+    "title": "maps with the sf package",
+    "section": "Package sf",
+    "text": "Package sf\n\n\n\nsf stores simple feature geometries as a list-column\n\n\n\n\n\n\nIt does that in sf objects, extending data.frame or tibble\n\n\n\n\n\n\nHow does it work?",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#sfg-geometry-for-one-feature",
+    "href": "maps-with-sf.html#sfg-geometry-for-one-feature",
+    "title": "maps with the sf package",
+    "section": "sfg : geometry for one feature",
+    "text": "sfg : geometry for one feature\n{width = “800}",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#package-sf-features",
+    "href": "maps-with-sf.html#package-sf-features",
+    "title": "maps with the sf package",
+    "section": "Package sf features",
+    "text": "Package sf features\n\nsf objects extend data.frame or tbl_df with a geometry list-column\nfast (C++) WKB \\(\\Longleftrightarrow\\) R conversion, used for I/O with libraries and databases\nspatial indexes created on-the-fly to scale up geometrical predicates (intersects) and operations (intersection), and selections (nearest feature)",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#package-sf-features-1",
+    "href": "maps-with-sf.html#package-sf-features-1",
+    "title": "maps with the sf package",
+    "section": "Package sf features",
+    "text": "Package sf features\n\nsimple and relatively small API\nfunctions/methods start with st_, as in\n\n\nlibrary(sf)\nst_is_simple(st_point(0:1))\n## [1] TRUE",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#sf-tidyverse",
+    "href": "maps-with-sf.html#sf-tidyverse",
+    "title": "maps with the sf package",
+    "section": "sf & tidyverse",
+    "text": "sf & tidyverse\n\nsf spatial objects are data.frames (or tibbles)\nyou can always un-sf, and work with tbl_df or data.frame having an sfc list-column\nsf methods for filter, arrange, distinct, group_by, ungroup, mutate, select have sticky geometry",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#sf-tidyverse-1",
+    "href": "maps-with-sf.html#sf-tidyverse-1",
+    "title": "maps with the sf package",
+    "section": "sf & tidyverse",
+    "text": "sf & tidyverse\n\nst_join joins tables based on a spatial predicate, or user-defined function\nsummarise unions geometry by group (or altogether)",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#conclusions",
+    "href": "maps-with-sf.html#conclusions",
+    "title": "maps with the sf package",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nsf provides tidy spatial analysis, for vector data\nthere are 6 package vignettes for further reading\n\nThanks to:\n\n\n\nEdzer Pebesma\nthe #rspatial community\nR Consortium for funding sf and stars",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  },
+  {
+    "objectID": "maps-with-sf.html#further-reading",
+    "href": "maps-with-sf.html#further-reading",
+    "title": "maps with the sf package",
+    "section": "Further reading:",
+    "text": "Further reading:\nEdzer Pebesma, 2018. Simple Features for R: Standardized Support for Spatial Vector Data. The R Journal (2018) 10:1, pages 439-446.\nhttps://journal.r-project.org/archive/2018/RJ-2018-009/index.html",
+    "crumbs": [
+      "Meetings",
+      "2025-07-17",
+      "Maps with the `sf` Package"
+    ]
+  }
+]
